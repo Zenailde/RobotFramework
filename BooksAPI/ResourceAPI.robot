@@ -22,6 +22,6 @@ Requisitar todos os livros
     Log            ${RESPOSTA.text} 
 
 Conferir o status code
-    [Arguments]    ${STATUS_CODE_DESEJADO}
+    [Arguments]    ${STATUS_CODE_DESEJADo}
     Should Be Equal As Strings   ${RESPOSTA.status_code}    ${STATUS_CODE_DESEJADO}
   
